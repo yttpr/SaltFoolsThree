@@ -1,0 +1,257 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Sprited\Achievement\HeavenBotanist.png" />
+	  <None Remove="Sprited\Achievement\HeavenCultist.png" />
+	  <None Remove="Sprited\Achievement\HeavenMagician.png" />
+	  <None Remove="Sprited\Achievement\HeavenScientist.png" />
+	  <None Remove="Sprited\Achievement\HeavenTelepath.png" />
+	  <None Remove="Sprited\Achievement\OsmanBotanist.png" />
+	  <None Remove="Sprited\Achievement\OsmanCultist.png" />
+	  <None Remove="Sprited\Achievement\OsmanMagician.png" />
+	  <None Remove="Sprited\Achievement\OsmanScientist.png" />
+	  <None Remove="Sprited\Achievement\OsmanTelepath.png" />
+	  <None Remove="Sprited\Achievement\TheDivine.png" />
+	  <None Remove="Sprited\Achievement\TheWitness.png" />
+	  <None Remove="Sprited\Assets.painstar" />
+	  <None Remove="Sprited\Botanist\botanistBack.png" />
+	  <None Remove="Sprited\Botanist\botanistCorpse.png" />
+	  <None Remove="Sprited\Botanist\botanistFront.png" />
+	  <None Remove="Sprited\Botanist\botanistGift.png" />
+	  <None Remove="Sprited\Botanist\botanistMenu.png" />
+	  <None Remove="Sprited\Botanist\botanistThumb.png" />
+	  <None Remove="Sprited\Botanist\botanistWorld.png" />
+	  <None Remove="Sprited\Cultist\cultistBack.png" />
+	  <None Remove="Sprited\Cultist\cultistDegrade.png" />
+	  <None Remove="Sprited\Cultist\cultistFront.png" />
+	  <None Remove="Sprited\Cultist\cultistHex.png" />
+	  <None Remove="Sprited\Cultist\cultistMenu.png" />
+	  <None Remove="Sprited\Cultist\cultistMinds.png" />
+	  <None Remove="Sprited\Cultist\cultistPain.png" />
+	  <None Remove="Sprited\Cultist\cultistRoots.png" />
+	  <None Remove="Sprited\Cultist\cultistWorld.png" />
+	  <None Remove="Sprited\EtcIcons\AnatomicalBack.png" />
+	  <None Remove="Sprited\EtcIcons\AnatomicalFront.png" />
+	  <None Remove="Sprited\EtcIcons\AnatomicalPassive.png" />
+	  <None Remove="Sprited\EtcIcons\AnatomicalWorld.png" />
+	  <None Remove="Sprited\EtcIcons\anesthetics2.png" />
+	  <None Remove="Sprited\EtcIcons\Cowardice.png" />
+	  <None Remove="Sprited\EtcIcons\culistTree.png" />
+	  <None Remove="Sprited\EtcIcons\cultistDialogue.png" />
+	  <None Remove="Sprited\EtcIcons\cultistWingless.png" />
+	  <None Remove="Sprited\EtcIcons\GelBody.png" />
+	  <None Remove="Sprited\EtcIcons\GelEye.png" />
+	  <None Remove="Sprited\EtcIcons\GelEyeOutlined.png" />
+	  <None Remove="Sprited\EtcIcons\GelGibs.png" />
+	  <None Remove="Sprited\EtcIcons\PassivePlaceholder.png" />
+	  <None Remove="Sprited\EtcIcons\PhotoIcon.png" />
+	  <None Remove="Sprited\EtcIcons\PurityOfMind.png" />
+	  <None Remove="Sprited\EtcIcons\RootsFlipped.png" />
+	  <None Remove="Sprited\EtcIcons\RootsIcon.png" />
+	  <None Remove="Sprited\EtcIcons\StatusPower.png" />
+	  <None Remove="Sprited\EtcIcons\witchTable.png" />
+	  <None Remove="Sprited\Magician\witchBack.png" />
+	  <None Remove="Sprited\Magician\witchEscapist.png" />
+	  <None Remove="Sprited\Magician\witchFront.png" />
+	  <None Remove="Sprited\Magician\witchMenu.png" />
+	  <None Remove="Sprited\Magician\witchRoute.png" />
+	  <None Remove="Sprited\Magician\witchSurprise.png" />
+	  <None Remove="Sprited\Magician\witchWand.png" />
+	  <None Remove="Sprited\Magician\witchWorld.png" />
+	  <None Remove="Sprited\Scientist\doctorBack.png" />
+	  <None Remove="Sprited\Scientist\doctorFront.png" />
+	  <None Remove="Sprited\Scientist\doctorLimbs.png" />
+	  <None Remove="Sprited\Scientist\doctorMenu.png" />
+	  <None Remove="Sprited\Scientist\doctorSchock.png" />
+	  <None Remove="Sprited\Scientist\doctorTrade.png" />
+	  <None Remove="Sprited\Scientist\doctorWorld.png" />
+	  <None Remove="Sprited\Telepath\schizoActing.png" />
+	  <None Remove="Sprited\Telepath\schizoBack.png" />
+	  <None Remove="Sprited\Telepath\schizoBlood.png" />
+	  <None Remove="Sprited\Telepath\schizoDeny.png" />
+	  <None Remove="Sprited\Telepath\schizoFront.png" />
+	  <None Remove="Sprited\Telepath\schizoHarm.png" />
+	  <None Remove="Sprited\Telepath\schizoMenu.png" />
+	  <None Remove="Sprited\Telepath\schizoWorld.png" />
+	  <None Remove="Sprited\Unlocks\botanistHeaven.png" />
+	  <None Remove="Sprited\Unlocks\botanistOsman.png" />
+	  <None Remove="Sprited\Unlocks\cultistHeaven.png" />
+	  <None Remove="Sprited\Unlocks\cultistOsman.png" />
+	  <None Remove="Sprited\Unlocks\magicianHeaven.png" />
+	  <None Remove="Sprited\Unlocks\magicianOsman.png" />
+	  <None Remove="Sprited\Unlocks\scientistHeaven.png" />
+	  <None Remove="Sprited\Unlocks\scientistOsman.png" />
+	  <None Remove="Sprited\Unlocks\telepathHeaven.png" />
+	  <None Remove="Sprited\Unlocks\telepathOsman.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Sprited\Achievement\HeavenBotanist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\HeavenCultist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\HeavenMagician.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\HeavenScientist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\HeavenTelepath.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\OsmanBotanist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\OsmanCultist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\OsmanMagician.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\OsmanScientist.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\OsmanTelepath.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\TheDivine.png" />
+	  <EmbeddedResource Include="Sprited\Achievement\TheWitness.png" />
+	  <EmbeddedResource Include="Sprited\Assets.painstar" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistBack.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistCorpse.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistFront.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistGift.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistMenu.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistThumb.png" />
+	  <EmbeddedResource Include="Sprited\Botanist\botanistWorld.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistBack.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistDegrade.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistFront.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistHex.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistMenu.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistMinds.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistPain.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistRoots.png" />
+	  <EmbeddedResource Include="Sprited\Cultist\cultistWorld.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\AnatomicalBack.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\AnatomicalFront.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\AnatomicalPassive.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\AnatomicalWorld.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\anesthetics2.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\Cowardice.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\culistTree.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\cultistDialogue.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\cultistWingless.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\GelBody.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\GelEye.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\GelEyeOutlined.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\GelGibs.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\PassivePlaceholder.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\PhotoIcon.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\PurityOfMind.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\RootsFlipped.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\RootsIcon.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\StatusPower.png" />
+	  <EmbeddedResource Include="Sprited\EtcIcons\witchTable.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchBack.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchEscapist.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchFront.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchMenu.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchRoute.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchSurprise.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchWand.png" />
+	  <EmbeddedResource Include="Sprited\Magician\witchWorld.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorBack.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorFront.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorLimbs.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorMenu.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorSchock.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorTrade.png" />
+	  <EmbeddedResource Include="Sprited\Scientist\doctorWorld.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoActing.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoBack.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoBlood.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoDeny.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoFront.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoHarm.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoMenu.png" />
+	  <EmbeddedResource Include="Sprited\Telepath\schizoWorld.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\botanistHeaven.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\botanistOsman.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\cultistHeaven.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\cultistOsman.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\magicianHeaven.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\magicianOsman.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\scientistHeaven.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\scientistOsman.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\telepathHeaven.png" />
+	  <EmbeddedResource Include="Sprited\Unlocks\telepathOsman.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="0Harmony">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Album">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Album.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\BepInEx.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BrutalAPI">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\BrutalAPI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="DOTween">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\DOTween.dll</HintPath>
+	  </Reference>
+	  <Reference Include="FMODUnity">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnity.dll</HintPath>
+	  </Reference>
+	  <Reference Include="FMODUnityResonance">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnityResonance.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Marosi.SerializableCollections">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.SerializableCollections.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Marosi.Utility">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.Utility.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MonoMod.RuntimeDetour">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MonoMod.Utils">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.Utils.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Unity.TextMeshPro">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.TextMeshPro.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AnimationModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AssetBundleModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AudioModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AudioModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.ImageConversionModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.ParticleSystemModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UI">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UIModule">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UIModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="YarnSpinner">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.dll</HintPath>
+	  </Reference>
+	  <Reference Include="YarnSpinner.Compiler">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Compiler.dll</HintPath>
+	  </Reference>
+	  <Reference Include="YarnSpinner.Unity">
+	    <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
